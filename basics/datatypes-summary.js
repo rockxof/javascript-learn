@@ -41,5 +41,33 @@ const myFunction = function(){
     console.log("hello world!");
 }
 
-console.log(typeof anotheId);
+// console.log(typeof anotheId);
 
+
+// -------------------------------------------------- STACK (Premitive), Heap (Non-Premitive)-------------------------------
+
+let myName = "Rock"
+
+let myRealName = myName
+myRealName = "Prateek"
+
+// console.log(myName);
+// output:"Rock"
+
+// console.log(myRealName);
+// output: "Prateek"
+
+let nameOne = {
+    name: "rock"
+}
+
+let nameTwo = nameOne
+
+nameTwo.name = "Prateek"
+
+console.log(nameOne.name);
+// output: "Prateek"
+console.log(nameTwo.name);
+// output: "Prateek"
+// *stack always give copy --> any values changes will not effect the main 
+// *heap gives reference --> any values changes in future will also make changes in its function object
