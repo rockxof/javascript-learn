@@ -40,3 +40,4 @@ console.log(newDate.toLocaleString('default', {
     day: "numeric",
     year: "numeric"
 }));
+// 12 Tuesday 2024 
