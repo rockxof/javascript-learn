@@ -6,7 +6,7 @@ const repoCount = 15;
 // console.log(name + repoCount);
 //  this is old method of doing this
 
-//======================> STRING INTERPOLARION(``)<==============================
+//======================> STRING INTERPOLATION(``)<==============================
 // console.log(`Hello my Name is ${name.toUpperCase()} and my repo count is ${repoCount}`);
 // *---> ${} this sign is used to recall the string.this is the modern case of using this
 
