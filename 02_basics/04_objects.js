@@ -57,21 +57,42 @@ const user = [
     }
 ]
 
-console.log(user[2].email);
+// console.log(user[2].email);
 // it will check email/userid ***IMPORTANT try it urself>>>>>>>>>>>>>>>>>>>>>>>>>
 
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));
+// console.log(Object.keys(tinderuser));
 // it shows the keys means in which the value is stored eg: Id, Name, IsLoggedIn
 
-console.log(Object.values(tinderuser));
+// console.log(Object.values(tinderuser));
 // it shows the values present inside the keys eg: '4569', 'Rock', false
 
-console.log(Object.entries(tinderuser));
+// console.log(Object.entries(tinderuser));
 // it converts into single arrays eg:  [ 'Id', '4569' ], [ 'Name', 'Rock' ]
 
 
-console.log(tinderuser.hasOwnProperty("IsLoggedIn"));
+// console.log(tinderuser.hasOwnProperty("IsLoggedIn"));
 // it will check if the property is avialable or not inside the tinder user nd gives output as Boolean
 
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>De Structuring Objects<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// eg: in react.js we r gonna use the destructring method to recall thing like ({price}),({ins})
+
+let course = {
+    courseName : 'javascript', 
+    price : 999,
+    courseInstructor : "Rock"
+}
+
+// console.log(course.courseInstructor); 
+// normal way 
+
+
+let {courseInstructor} = course
+// we can now call directly in log that print the name of courseinstructor 
+
+let {courseInstructor : ins} = course
+// here we assign 'ins' as short name to recall the courseinstructor 
+
+console.log(ins);
