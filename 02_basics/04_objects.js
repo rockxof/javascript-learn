@@ -96,3 +96,15 @@ let {courseInstructor : ins} = course
 // here we assign 'ins' as short name to recall the courseinstructor 
 
 console.log(ins);
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>API / JSON <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// {
+//     "Name" : "Rock",
+//     "course" : " javascript in hindi ",
+//     "Price" : "free",
+//     "Effective" : true,
+//     "Id" : 345,
+// }
+
+// example of JSON file format 
