@@ -46,3 +46,22 @@
 //     else{
 //         console.log("temperature is Very hot it's hard to survive");
 //     }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>AND(&&) OR(||) operators in js<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// const marks = 50
+// if (marks >= 33 && marks <= 49) {
+//     console.log("'D' Grade ");
+// } else if (marks >= 50) {
+//     console.log("'C' Grade");
+// }   else{
+//     console.log('Fail');
+// }
+// in AND operator both statement needs to be true
+
+let phoneNo = true
+let emaiId = false
+
+if (phoneNo || emaiId) {
+    console.log("You are logged in");
+}
+// in OR operator if one statement is true then its true
